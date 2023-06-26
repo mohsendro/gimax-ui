@@ -324,27 +324,16 @@ section .row-fluid {
     font-weight: 100 200 300 400 500 600 700 800 900;
 }
 
-/* icons font */
-@font-face {
-    font-family: 'icomoon';
-    src: url("../font/line-awesome/fonts/icomoon.eot?ee9xs1");
-    src: url("../font/line-awesome/fonts/icomoon.eot?ee9xs1#iefix") format("embedded-opentype"),
-        url("../font/line-awesome/fonts/icomoon.ttf?ee9xs1") format("truetype"),
-        url("../font/line-awesome/fonts/icomoon.woff?ee9xs1") format("woff"),
-        url("../font/line-awesome/fonts/icomoon.svg?ee9xs1#icomoon") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
-
 /* Kit Styles */
 :root {
-    --main-color-default: #1D2125;
-    --main-color-second: #CD9300;
-    --hover-color-default: #1D2125;
-    --hover-color-second: #CD9300;
-    --title-color: #292C44;
-    --description-color: #030305;
+    --main-color-default: #fed813;
+    --main-color-second: #00bfda;
+    --hover-color-default: #ffb113;
+    --hover-color-second: #5181c4;
+    --title-color: #000000;
+    --description-color: #949494;
+    --default-font: 'IranSans';
+    --second-font: 'IranSansDN';
 }
 
 /* Global Styles */
@@ -354,30 +343,27 @@ section .row-fluid {
 #wpadminbar .ab-label,
 span.display-name,
 a.ab-item {
-    font-family: "IranSans";
+    font-family: var(--default-font,'IranSans');
 }
 
 * {
-    -webkit-transition: all 0.3s ease-in-out;
+    /* -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; */
 }
 
 html {
-    font-family: "IranSans";
-    font-size: 16px;
-    font-weight: 400;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 body {
-    background-color: #FFFFFF;
-    font-family: "IranSans";
-    font-size: 16px;
+    font-family: var(--default-font);
+    font-size: 15px;
     font-weight: 400;
     color: var(--title-color, #000000);
+    background-color: #FFFFFF;
     overflow-x: hidden;
 }
 
@@ -482,6 +468,97 @@ a:hover {
 
 
 /************* Inedx *************/
+.slider {}
+
+.slider .column {}
+
+.customer {}
+
+.customer .column {}
+
+.service {
+    margin: 100px auto;
+}
+
+.service .head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.service .head .title {
+    width: 100%;
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: var(--default-font);
+    text-align: center;
+    color: var(--title-color);
+    z-index: 2;
+}
+
+.service .head .subtitle {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: var(--second-font);
+    text-align: center;
+    color: var(--description-color);
+    opacity: 0.2;
+    margin-top: -10px;
+}
+
+.service .desc {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--description-color);
+    text-align: center;
+}
+
+.service .slogan {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: var(--second-font);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+    color: var(--main-color);
+    text-shadow: 5px 5px 10px #00000024;
+    padding: 10px;
+}
+
+.service .slogan::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url('../img/Google-Partnership.png');
+    background-size: 200px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+
+
 
 
 /************* Blog Archive *************/

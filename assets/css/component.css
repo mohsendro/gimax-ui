@@ -1,4 +1,375 @@
-/************* Component Sample *************/
+/************* Component Notification *************/
+.notification {}
+
+.notification .row {}
+
+.notification .column {}
+
+.notification .alert {
+    position: relative;
+    font-family: var(--second-font);
+    text-align: center;
+    background-color: var(--main-color-second);
+    border-radius: 0;
+    padding: 20px;
+    margin: 0;
+}
+
+.notification .alert .btn-close {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -25px);
+}
+
+.notification .alert .btn-login {
+    display: inline-flex;
+    color: var(--title-color);
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.notification .alert .btn-login:hover {
+    background-color: var(--hover-color-default);
+}
+
+
+/************* Component Button *************/
+.btn-default {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.btn-default button {
+    width: auto;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    color: var(--title-color);
+    background-color: var(--main-color-default);
+    border-radius: 4px;
+    padding: 10px; 
+}
+
+.btn-default button:hover {
+    color: var(--title-color);
+    background-color: var(--hover-color-default);
+}
+
+.btn-default span {}
+
+.btn-default i {
+    font-size: 20px;
+}
+
+
+/************* Component Swiper *************/
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/************* Component Slider Card *************/
+.slider-card {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+}
+
+.slider-card::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #05050550;
+    z-index: 1;
+}
+
+.slider-card img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.slider-card .content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.slider-card .content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    z-index: 5;
+}
+
+.slider-card .title {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.slider-card .desc {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+/************* Component Customer Scroll *************/
+.customer .scroll-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 1px 8px rgba(26,26,26,.12);
+}
+  
+.customer .scroll-parent {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    overflow-x: hidden;
+}
+
+.customer .scroll-parent::before {
+    content: "";
+    width: 100px;
+    height: 100%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+    filter: blur(25px);
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+}
+
+.customer .scroll-parent::after {
+    content: "";
+    width: 100px;
+    height: 100%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.3) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.3) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+    filter: blur(25px);
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+}
+  
+.customer .scroll-element {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.customer .scroll-element img {
+    width: auto;
+    max-width: 250px;
+    height: auto;
+    max-height: 100px;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+.customer .scroll-element img:hover {
+    filter: grayscale(0);
+}
+  
+.customer .primary {
+    animation: primaryScroll 30s linear infinite;
+}
+  
+.customer .secondary {
+    animation: secondaryScroll 30s linear infinite;
+}
+  
+@keyframes primaryScroll {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+}
+  
+@keyframes secondaryScroll {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0%;
+    }
+}
+  
+
+/************* Component Info Box Card *************/
+.info-box {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(196,196,196,.2);
+    border-radius: 7px;
+    padding: 35px 20px;
+}
+
+.info-box .info-img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box .info-img::after {
+    content: "";
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color-second);
+    opacity: 0.5;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.info-box .info-img i {
+    font-size: 50px;
+    z-index: 2;
+}
+
+.info-box .info-title {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.info-box .info-desc {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--description-color);
+    text-align: center;
+}
+
+.info-box .info-more  {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.info-box .info-more  button {
+    width: auto;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    color: var(--title-color);
+    background-color: var(--main-color-default);
+    border-radius: 4px;
+    padding: 10px; 
+}
+
+.info-box .info-more  button:hover {
+    color: var(--title-color);
+    background-color: var(--hover-color-default);
+}
+
+.info-box .info-more  span {}
+
+.info-box .info-more  i {
+    font-size: 20px;
+}
+
+
 
 
 /************* Component Responsive *************/
