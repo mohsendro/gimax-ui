@@ -60,6 +60,19 @@
                 </div>
             </div>
 
+            <div class="row newsletter mt-5">
+                <div class="col-12 col-xl-6 content-column column">
+                    <div class="title">عضویت در خبرنامه</div>
+                    <div class="desc">برای اطلاع از مطالب مفید در مورد جیمکس و اطلاع از کمپین‌ها عضو شوید.</div>
+                </div>
+                <div class="col-12 col-xl-6 form-column column">
+                    <form action="" method="post">
+                        <input type="email" name="email" placeholder="ایمیل خود را وارد کنید">
+                        <button type="submit"><i class="las la-envelope-open-text"></i> ارسال ایمیل</button>
+                    </form>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-12 column">
                     <div class="copyright">

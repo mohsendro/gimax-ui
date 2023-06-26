@@ -72,6 +72,102 @@
 }
 
 
+/************* Component Heading *************/
+.heading {
+    width: 100%;
+    min-height: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--default-font);
+    text-align: right;
+    color: var(--title-color);
+    margin-bottom: 30px;
+}
+
+.heading .title {}
+
+.heading .link {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading .link .more {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.heading .link .more button {
+    width: auto;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    color: var(--title-color);
+    background-color: var(--main-color-default);
+    border-radius: 4px;
+    padding: 10px; 
+}
+
+.heading .link .more button:hover {
+    color: var(--title-color);
+    background-color: var(--hover-color-default);
+}
+
+.heading .link .more span {}
+
+.heading .link .more i {
+    font-size: 20px;
+}
+
+.heading .navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.heading .navigation .nav {
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--title-color);
+    background-color: #cccccc50;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.heading .navigation .nav:hover {
+    background-color: var(--hover-color-default);
+}
+
+
 /************* Component Swiper *************/
 .swiper {
     width: 100%;
@@ -165,111 +261,6 @@
     color: #FFFFFF;
 }
 
-
-/************* Component Customer Scroll *************/
-.customer .scroll-container {
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    box-shadow: 0 1px 8px rgba(26,26,26,.12);
-}
-  
-.customer .scroll-parent {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 100px;
-    overflow-x: hidden;
-}
-
-.customer .scroll-parent::before {
-    content: "";
-    width: 100px;
-    height: 100%;
-    background-color: #FFFFFF;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(90deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,1) 100%);
-    background: linear-gradient(90deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
-    filter: blur(25px);
-    -webkit-filter: blur(25px);
-    -moz-filter: blur(25px);
-}
-
-.customer .scroll-parent::after {
-    content: "";
-    width: 100px;
-    height: 100%;
-    background-color: #FFFFFF;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.3) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.3) 100%);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.3) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
-    filter: blur(25px);
-    -webkit-filter: blur(25px);
-    -moz-filter: blur(25px);
-}
-  
-.customer .scroll-element {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-  
-.customer .scroll-element img {
-    width: auto;
-    max-width: 250px;
-    height: auto;
-    max-height: 100px;
-    cursor: pointer;
-    filter: grayscale(1);
-}
-
-.customer .scroll-element img:hover {
-    filter: grayscale(0);
-}
-  
-.customer .primary {
-    animation: primaryScroll 30s linear infinite;
-}
-  
-.customer .secondary {
-    animation: secondaryScroll 30s linear infinite;
-}
-  
-@keyframes primaryScroll {
-    from {
-      left: 0%;
-    }
-    to {
-      left: -100%;
-    }
-}
-  
-@keyframes secondaryScroll {
-    from {
-      left: 100%;
-    }
-    to {
-      left: 0%;
-    }
-}
-  
 
 /************* Component Info Box Card *************/
 .info-box {
@@ -370,6 +361,134 @@
 }
 
 
+/************* Component Blog Card *************/
+.blog-card {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(196,196,196,.2);
+    border-radius: 7px;
+    padding: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+    -webkit-box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.2);
+}
+
+.blog-card .info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.blog-card .thumbnail {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.blog-card .thumbnail img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.blog-card .detial {
+    width: 100%;
+    height: auto;
+    max-height: 50px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #00000050;
+    opacity: 0;
+    padding: 10px;
+    margin: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-card:hover .detial {
+    opacity: 1;
+}
+
+.blog-card .detial li {
+    width: auto;
+    display: inline-block;
+}
+
+.blog-card .detial li a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.blog-card .detial li a:hover {
+    color: var(--main-color-default)
+}
+
+.blog-card .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.blog-card .content .title {
+    width: 100%;
+    min-height: 25px;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--main-color);
+    text-align: right;
+}
+
+.blog-card .content .desc {
+    width: 100%;
+    min-height: 75px;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--description-color);
+    text-align: justify;
+    margin: 0;
+}
 
 
 /************* Component Responsive *************/
