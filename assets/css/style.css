@@ -719,7 +719,7 @@ a:hover {
 .timeline__event:nth-child(2n+1) .timeline__event__icon:before {
     content: "";
     width: 2px;
-    height: calc(100% + 50px);
+    height: calc(100% + 100px);
     background: var(--main-color-default);
     position: absolute;
     top: 0%;
@@ -771,6 +771,11 @@ a:hover {
     padding: 0 20px;
 }
 
+.timeline__event__date svg {
+    max-width: 40px;
+    height: auto;
+}
+
 .timeline__event__content {
     padding: 20px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
@@ -803,7 +808,7 @@ a:hover {
 .timeline__event__icon:before {
     content: "";
     width: 2px;
-    height: calc(100% + 50px);
+    height: calc(100% + 100px);
     background: var(--main-color-default);
     position: absolute;
     top: 0%;
@@ -888,7 +893,7 @@ a:hover {
 }
 */
 
-@media (max-width: 786px) {
+@media (max-width: 1199.98px) {
     .timeline__event {
         flex-direction: column;
         align-self: center;

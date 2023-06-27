@@ -44,9 +44,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: center;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     font-size: 16px;
     font-weight: 500;
     font-family: var(--default-font);
@@ -55,7 +55,27 @@
     margin-bottom: 30px;
 }
 
-.heading .title {}
+.heading .title {
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--main-color);
+    text-align: right;
+    padding-right: 30px;
+}
+
+.heading .title::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0px, -5px);
+    background-color: var(--main-color-default);
+    border-radius: 50%;
+}
 
 .heading .link {
     position: relative;
@@ -607,14 +627,38 @@
 
 
 /************* Component Responsive *************/
+@media (max-width: 1399.98px) {}
+
+@media (max-width: 1199.98px) {
+
+    /************* Component Slider Card *************/
+    .slider-card {
+        min-height: 400px;
+    }
+
+    /************* Component Info Box Card *************/
+    .info-box {
+        min-height: 400px;
+    }
+
+    /************* Component CTA *************/
+    .content-cta {
+        flex-direction: column;
+        gap: 20px
+    }
+
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+
+    /************* Component Notification *************/
+    .notification .alert .btn-login {
+        display: block;
+        margin: 20px auto 0;
+    }
+
+}
+
 @media (max-width: 575.98px) {}
-
-@media (min-width: 576px) {}
-
-@media (min-width: 768px) {}
-
-@media (min-width: 992px) {}
-
-@media (min-width: 1200px) {}
-
-@media (min-width: 1400px) {}

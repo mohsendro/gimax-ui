@@ -77,10 +77,6 @@
                 </div>
             </div>
 
-
-
-
-
             <div class="row">
                 <div class="col-12 column">
                     <div class="copyright">
@@ -96,7 +92,12 @@
     <!-- Bootstrap Js -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Bootstrap Js -->
+    <!-- Menu Js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/vendor/stellarnav/js/stellarnav.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script> -->
+
+    <!-- Lottie Js -->
     <script src="assets/vendor/lottie/lottie.min.js"></script>
 
     <!-- AOS Js -->

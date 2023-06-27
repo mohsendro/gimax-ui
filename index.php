@@ -132,8 +132,8 @@
         <div class="row">
             <div class="col-12 column">
                 <div class="head">
-                    <div class="title">اولین بودن در تبلیغات گوگل با جیمکس</div>
-                    <div class="subtitle">موفقیت شما موفقیت ماست</div>
+                    <div class="title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">اولین بودن در تبلیغات گوگل با جیمکس</div>
+                    <div class="subtitle" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">موفقیت شما موفقیت ماست</div>
                 </div>
             </div>
         </div>
@@ -312,7 +312,7 @@
     <section id="timeline" class="container timeline">
         <div class="row">
             <div class="col-12 column">
-                <div class="title">مراحل اجرای کمپین تبلیغات در گوگل ادز</div>
+                <div class="title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">مراحل اجرای کمپین تبلیغات در گوگل ادز</div>
             </div>
         </div>
         <div class="row">
@@ -460,7 +460,7 @@
         <div class="row">
             <div class="col-12 column">
                 <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
+                    <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
@@ -472,7 +472,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
@@ -484,7 +484,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
@@ -529,7 +529,7 @@
                 <div class="heading">
                     <div class="title">آخرین اخبار و بلاگ</div>
                     <div class="link">
-                        <div class="navigation">
+                        <div class="navigation d-none d-sm-block">
                             <div class="nav next blogswiper-button-next"><i class="las la-angle-right"></i></div>
                             <div class="nav prev blogswiper-button-prev"><i class="las la-angle-left"></i></div>
                         </div>

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.rtl.min.css">
 
     <!-- Menu Css -->
+    <link rel="stylesheet" href="assets/vendor/stellarnav/css/stellarnav.min.css">
     <link rel="stylesheet" href="assets/css/header-footer.css">
 
     <!-- Icon Css -->
@@ -52,15 +53,36 @@
     <header id="header" class="container-fluid header">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-1 col-xl-1 logo-column column order-2 order-xl-1">
+                <div class="col-6 col-sm-1 col-xl-1 col-xl-1 logo-column column order-2 order-xl-1">
                     <a href="#" class="logo">
                         <img src="assets/img/global/logo.png" alt="logo" width="auto" height="auto">
                     </a>
                 </div>
-                <div class="col-12 col-sm-7 col-xl-7 menu-column column order-1 order-xl-2">
-                    فهرست اصلی
+
+                <div class="col-6 col-sm-5 col-xl-7 col-xl-7 menu-column column order-1 order-xl-2">
+                    <div class="stellarnav">
+                        <ul>
+                            <li><a href="#">تبلیغ در یوتیوب</a></li>
+                            <li><a href="#">طراحی سایت</a></li>
+                            <li><a href="#">تبلیغ در گوگل</a></li>
+                            <li class="drop-left"><a href="#">زیرمنو</a>
+                                <ul>
+                                    <li><a href="#">سطح1</a>
+                                        <ul>
+                                            <li><a href="#">سطح2</a>
+                                                <li><a href="#">منو</a></li>
+                                                <li><a href="#">منو</a></li>
+                                                <li><a href="#">منو</a></li>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-12 col-sm-4 col-xl-4 link-column column order-3 order-xl-3">
+
+                <div class="col-12 col-sm-6 col-xl-4 col-xl-4 link-column column order-3 order-xl-3">
                     <button class="btn btn-search"><i class="las la-search"></i></button>
                     <a href="tel:02191095659" class="btn btn-call"><span class="d-none d-xl-block">021-<strong>91095659</strong></span><i class="las la-phone"></i></a>
                     <button type="button" class="btn btn-login"><span class="d-none d-xl-block">ورود | ثبت نام</span><i class="las la-user"></i></button>
