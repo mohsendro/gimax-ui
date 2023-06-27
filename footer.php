@@ -66,12 +66,20 @@
                     <div class="desc">برای اطلاع از مطالب مفید در مورد جیمکس و اطلاع از کمپین‌ها عضو شوید.</div>
                 </div>
                 <div class="col-12 col-xl-6 form-column column">
-                    <form action="" method="post">
+                    <form action="" method="post" class="zone">
                         <input type="email" name="email" placeholder="ایمیل خود را وارد کنید">
-                        <button type="submit"><i class="las la-envelope-open-text"></i> ارسال ایمیل</button>
+                        <button type="submit">
+                            <i class="las la-envelope-open-text"></i>
+                            <span class="bodymovin"></span>
+                            <span class="text">ارسال ایمیل</span>
+                        </button>
                     </form>
                 </div>
             </div>
+
+
+
+
 
             <div class="row">
                 <div class="col-12 column">
@@ -87,6 +95,9 @@
     
     <!-- Bootstrap Js -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="assets/vendor/lottie/lottie.min.js"></script>
 
     <!-- AOS Js -->
     <script src="assets/vendor/aos/js/aos.js"></script>

@@ -662,6 +662,12 @@ a:hover {
     z-index: -1;
 }
 
+.cta {   
+    margin-top: 100px;
+}
+
+.cta .column {}
+
 .timeline {
     display: flex;
     flex-direction: column;
@@ -669,11 +675,13 @@ a:hover {
     position: relative;
     margin-top: 100px;
 }
+
 .timeline .column {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .timeline .title {
     width: 100%;
     display: block;
@@ -685,6 +693,7 @@ a:hover {
     z-index: 2;
     margin-bottom: 50px;
 }
+
 .timeline__event {
     /* width: 50vw; */
     position: relative;
@@ -694,15 +703,19 @@ a:hover {
     border-radius: 6px;
     margin-bottom: 50px;
 }
+
 .timeline__event:nth-child(2n+1) {
     flex-direction: row;
 }
+
 .timeline__event:nth-child(2n+1) .timeline__event__date {
     border-radius: 0 6px 6px 0;
 }
+
 .timeline__event:nth-child(2n+1) .timeline__event__content {
     border-radius: 6px 0 0 6px;
 }
+
 .timeline__event:nth-child(2n+1) .timeline__event__icon:before {
     content: "";
     width: 2px;
@@ -717,6 +730,7 @@ a:hover {
     -webkit-animation: fillTop 2s forwards 4s ease-in-out;
     animation: fillTop 2s forwards 4s ease-in-out;
 }
+
 .timeline__event:nth-child(2n+1) .timeline__event__icon:after {
     content: "";
     width: 100%;
@@ -731,6 +745,7 @@ a:hover {
     -webkit-animation: fillLeft 2s forwards 4s ease-in-out;
     animation: fillLeft 2s forwards 4s ease-in-out;
 }
+
 .timeline__event__title {
     width: 100%;
     display: block;
@@ -741,6 +756,7 @@ a:hover {
     text-align: right;
     margin-bottom: 15px;
 }
+
 .timeline__event__date {
     min-width: 100px;
     display: flex;
@@ -754,6 +770,7 @@ a:hover {
     background: rgb(235 235 235);
     padding: 0 20px;
 }
+
 .timeline__event__content {
     padding: 20px;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
@@ -761,6 +778,7 @@ a:hover {
     width: calc(40vw - 84px);
     border-radius: 0 6px 6px 0;
 }
+
 .timeline__event__icon {
     display: flex;
     width: 40px;
@@ -777,9 +795,11 @@ a:hover {
     padding: 40px;
     margin: 0 20px;
 }
+
 .timeline__event__icon i {
     font-size: 32px;
 }
+
 .timeline__event__icon:before {
     content: "";
     width: 2px;
@@ -793,6 +813,7 @@ a:hover {
     -webkit-animation: fillTop 2s forwards 4s ease-in-out;
     animation: fillTop 2s forwards 4s ease-in-out;
 }
+
 .timeline__event__icon:after {
     content: "";
     width: 100%;
@@ -806,6 +827,7 @@ a:hover {
     -webkit-animation: fillLeftOdd 2s forwards 4s ease-in-out;
     animation: fillLeftOdd 2s forwards 4s ease-in-out;
 }
+
 .timeline__event__description {
     width: 100%;
     display: block;
@@ -815,9 +837,11 @@ a:hover {
     color: var(--description-color);
     text-align: justify;
 }
+
 .timeline__event:last-child .timeline__event__icon:before {
     content: none;
 }
+
 /*
 .timeline__event--type2:after {
     background: #555ac0;
@@ -898,31 +922,37 @@ a:hover {
         margin: 0;
     }
 }
+
 @-webkit-keyframes fillLeft {
     100% {
         right: 100%;
     }
 }
+
 @keyframes fillLeft {
     100% {
         right: 100%;
     }
 }
+
 @-webkit-keyframes fillTop {
     100% {
         top: 100%;
     }
 }
+
 @keyframes fillTop {
     100% {
         top: 100%;
     }
 }
+
 @-webkit-keyframes fillLeftOdd {
     100% {
         left: 100%;
     }
 }
+
 @keyframes fillLeftOdd {
     100% {
         left: 100%;

@@ -288,6 +288,27 @@
         </div>
     </section>
 
+    <section id="cta" class="container cta">
+        <div class="row">
+            <div class="col-12 column">
+                <!-- Component CTA Start -->
+                <div class="content-cta">
+                    <div class="title">
+                        <strong>اگر همچنان سوالی در ذهن دارید با کارشناسان ما تماس حاصل فرمایید</strong>
+                        <p>برای مشاوره و اطلاع از تعرفه ی خدمات تبلیغات گوگل با کارشناسان ما در تماس باشید</p>
+                    </div>
+                    <a href="https://gmaxads.com/contact-us/" class="btn-cta" target="_blank">
+                        <button type="button" class="btn">
+                            <span>همین الان مشاوره بگیرید</span>
+                            <i class="las la-angle-left"></i>
+                        </button>
+                    </a>
+                </div>
+                <!-- Component CTA End -->
+            </div>
+        </div>
+    </section>
+
     <section id="timeline" class="container timeline">
         <div class="row">
             <div class="col-12 column">
@@ -480,6 +501,27 @@
         </div>
     </section>
 
+    <section id="cta" class="container cta">
+        <div class="row">
+            <div class="col-12 column">
+                <!-- Component CTA Start -->
+                <div class="content-cta">
+                    <div class="title">
+                        <strong>اگر همچنان سوالی در ذهن دارید با کارشناسان ما تماس حاصل فرمایید</strong>
+                        <p>برای مشاوره و اطلاع از تعرفه ی خدمات تبلیغات گوگل با کارشناسان ما در تماس باشید</p>
+                    </div>
+                    <a href="https://gmaxads.com/contact-us/" class="btn-cta" target="_blank">
+                        <button type="button" class="btn">
+                            <span>همین الان مشاوره بگیرید</span>
+                            <i class="las la-angle-left"></i>
+                        </button>
+                    </a>
+                </div>
+                <!-- Component CTA End -->
+            </div>
+        </div>
+    </section>
+
     <section id="blog" class="container blog">
         <div class="row">
             <div class="col-12 column">
@@ -617,16 +659,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Empty Start -->
-    <!-- <section id="empty" class="container empty">
-        <div class="row">
-            <div class="col-12 column">
-                dsfdsfsdf
-            </div>
-        </div>
-    </section> -->
-    <!-- Empty End -->
 </main>
 
 <?php include __DIR__ . '/footer.php'; ?>
