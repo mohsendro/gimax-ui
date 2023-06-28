@@ -1,6 +1,6 @@
 <?php include __DIR__ . '/header.php'; ?>
 
-<main id="main" class="main">
+<main id="main" class="main index">
     <section id="slider" class="container-fluid slider">
         <div class="row">
             <div class="col-12 column">
@@ -456,10 +456,11 @@
         </div>
     </section>
 
-    <section id="faq" class="container faq">
+    <section id="faqs" class="container faqs">
         <div class="row">
             <div class="col-12 column">
-                <div class="accordion" id="accordionExample">
+                <!-- Component FAQ Start -->
+                <div class="faq accordion" id="accordionExample">
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -497,6 +498,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Component FAQ End -->
             </div>
         </div>
     </section>

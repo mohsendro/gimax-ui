@@ -36,7 +36,7 @@
 <body class="">
 
     <!-- Component Notification Start -->
-    <section id="notification" class="container-fluid notification">
+    <!-- <section id="notification" class="container-fluid notification">
         <div class="row">
             <div class="con-12 column">
                 <div class="alert alert-dismissible fade show" role="alert">
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Component Notification End -->
 
     <!-- Header Start -->

@@ -92,7 +92,7 @@ var swiper = new Swiper(".infoBoxSwiper", {
     },
     breakpoints: {
         0: {
-            slidesPerView: 1.2,
+            slidesPerView: 1,
             spaceBetween: 15,
         },
         576: {
