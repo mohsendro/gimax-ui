@@ -1287,6 +1287,7 @@ a:hover {
 }
 
 .pricing .plan {
+    width: 33.3%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1329,12 +1330,14 @@ a:hover {
     display: block;
     font-size: 20px;
     color: var(--title-color);
+    margin-bottom: 5px;
 }
 
 .pricing .plan .offer {
     width: 100%;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 20px;
     color: var(--description-color);
     margin-bottom: 30px;
 }
@@ -1582,16 +1585,193 @@ a:hover {
 }
 
 
+/************* Web Design Page *************/
+
+
+/************* Contact Page *************/
+.main.contact {
+    margin-top: 70px;
+}
+
+.contact-info {}
+
+.contact-info .row {}
+
+.contact-info .column {}
+
+.contact-info .content-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.contact-info .map-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact-info .contiguity {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.contact-info .head {
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: var(--default-font);
+    text-align: right;
+    color: var(--title-color);
+    margin-bottom: 20px;
+}
+
+.contact-info .address {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    margin: 0;
+}
+
+.contact-info .line {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.contact-info .line li {
+    /* width: 100%; */
+}
+
+.contact-info .line li a {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--title-color);
+}
+
+.contact-info .line li a:hover {
+    color: var(--hover-color-default);
+}
+
+.contact-info .line li a i {
+    font-size: 25px;
+}
+
+.contact-info .socials {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.contact-info .socials li {
+    /* width: 100%; */
+}
+
+.contact-info .socials li a {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--title-color);
+}
+
+.contact-info .socials li a:hover {
+    color: var(--hover-color-default);
+}
+
+.contact-info .socials li a i {
+    font-size: 35px;
+}
+
+.contact-info .time {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--title-color);
+    margin-bottom: 15px;
+
+}
+
+.contact-info .time strong {
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.contact-info .ticket {}
+
+.contact-info iframe {
+    width: 100%;
+    filter: grayscale(1);
+    border-radius: 10px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.contact-info iframe:hover {
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
 /************* Blog Archive *************/
 
 
 /************* Blog Single *************/
 
 
-/************* Contact *************/
-
-
 /************* 404 *************/
 
 
 /************* Empty *************/
+
+
+/************* Page *************/

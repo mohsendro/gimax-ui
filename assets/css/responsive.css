@@ -137,6 +137,10 @@
         margin-top: 70px;
     }
 
+    .pricing .plan {
+        width: 100%;
+    }
+
     .pricing-content {
         flex-wrap: wrap;
     }

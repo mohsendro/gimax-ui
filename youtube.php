@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="col-12 col-xl-6 img-column column">
-                    <img src="assets/img/youtube.png" alt="google-ads">
+                    <img src="assets/img/youtube.png" alt="youtube">
                 </div>
             </div>
         </div>
