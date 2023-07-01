@@ -1,19 +1,19 @@
 <?php include __DIR__ . '/header.php'; ?>
 
-<main id="main" class="main googleads">
+<main id="main" class="main youtube">
     <section id="hero" class="container-fluid hero">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-6 content-column column">
-                    <h1 class="title">تبلیغ در گوگل</h1>
+                    <h1 class="title">تبلیغ در یوتیوب</h1>
                     <p class="desc">
-                        تبلیغ در گوگل بهترین راه حل برای شناساندن محصول و خدمات شما به مشتریان صد در صدی است. شما با این نوع از تبلیغات، محصول خود را در بالاترین رتبه های گوگل، به کسانی که برای آن جستجو می کنند نشان خواهید داد
+                        تبلیغ در یوتیوب آینده ی تبلیغات است. جامعه یوتیوب ایران بصورت روز افزون در حال رشد است. ما می توانیم تبلیغات شما را در یوتیوب به نمایش بگذاریم.
                     </p>
                     <ul class="details">
-                        <li>بدون سئو رتبه های بالای گوگل را برای خود کنید</li>
                         <li>هزینه ی مقرون به صرفه به ازای هر کلیک</li>
                         <li>دریافت گزارش لحظه ای و دقیق</li>
                         <li>امکان رصد کردن رفتار دقیق کاربران</li>
+                        <li>امکان نمایش تبلیغ در کانال های انتخابی شما</li>
                     </ul>
                     <!-- Component Button Start -->
                     <a href="https://panel.gmaxads.com/" class="btn-default" target="_blank">
@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="col-12 col-xl-6 img-column column">
-                    <img src="assets/img/googleads.png" alt="google-ads">
+                    <img src="assets/img/youtube.png" alt="google-ads">
                 </div>
             </div>
         </div>
@@ -38,11 +38,11 @@
                 <!-- Component Box Card Start -->
                 <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="assets/img/box1.jpg" alt="">
+                        <img src="assets/img/box1.jpg">
                     </div>
-                    <div class="title">افزایش بازدید مشتری از فروشگاه</div>
+                    <div class="head">4X</div>
                     <div class="desc">
-                        با استفاده از تبلیغات در گوگل، می توانید مشتریان را با فروشگاه خود آشنا کنید
+                        تعداد کاربرانی که از یوتیوب برای کسب اطلاعات از برند های مختلف استفاده می کنند 4 برابر رسانه های دیگر است
                     </div>
                 </div>
                 <!-- Component Box Card End -->
@@ -51,11 +51,11 @@
                 <!-- Component Box Card Start -->
                 <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="assets/img/box2.jpg" alt="">
+                        <img src="assets/img/box2.jpg">
                     </div>
-                    <div class="title">افزایش تماس به شرکت</div>
+                    <div class="head">70%</div>
                     <div class="desc">
-                        افزایش تماس به وسیله تبلیغات در گوگل و اضافه کردن شماره تلفن به آن
+                        بیش از %70 از کاربران گفته اند که یوتیوب باعث شناخت بهتر از برند های مختلف شده است
                     </div>
                 </div>
                 <!-- Component Box Card End -->
@@ -64,11 +64,11 @@
                 <!-- Component Box Card Start -->
                 <div class="box" data-aos="fade-in" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
                     <div class="img">
-                        <img src="assets/img/box3.jpg" alt="">
+                        <img src="assets/img/box3.jpg">
                     </div>
-                    <div class="title">افزایش ترافیک وب سایت</div>
+                    <div class="head">2X</div>
                     <div class="desc">
-                        افزایش فروش و سفارش خدمات، و یا حتی افزایش ثبت نام در خبرنامه به وسیله ترافیک اضافه شده از طریق گوگل ادز
+                        امکان خرید کاربران بعد از دیدن تبلیغ در یوتیوب 2 برابر بیشتر از رسانه های دیگر است
                     </div>
                 </div>
                 <!-- Component Box Card End -->
@@ -97,19 +97,57 @@
         </div>
     </section>
 
-    <section id="budget" class="container-fluid budget">
+    <section id="advertising" class="container-fluid advertising">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-xl-7 order-1 order-xl-1 content-column column">
-                    <h2 class="title">مشاوره رایگان تبلیغ در گوگل</h2>
-                    <p class="desc">
-                        متخصصین جیمکس در اسرع وقت با شما تماس خواهند گرفت
-                    </p>
+                <div class="col-12 column">
+                    <div class="title">تبلیغات در یوتیوب شما به چه شکل نمایش می یابد؟</div>
                 </div>
+            </div>
 
-                <div class="col-12 col-xl-5 order-2 order-xl-2 img-column column">
-                    <div class="img">
-                        <img src="assets/img/content1.png" alt="budget">
+            <div class="row">
+                <div class="col-12 column">
+                    <div class="tabs">
+                        <div class="nav nav-pills" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-selected="true">تبلیغات Skippable</button>
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-selected="false">تبلیغات Non Skippable</button>
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-three" type="button" role="tab" aria-selected="false">تبلیغات In-Feed</button>
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-four" type="button" role="tab" aria-selected="false">تبلیغات Bumper</button>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="v-pills-one" role="tabpanel" tabindex="0">
+                                <div class="content">
+                                    <img src="assets/img/skippable.gif" alt="" class="image">
+                                    <div class="desc">
+                                        این تبلیغات بعد از 5 ثانیه قابل رد کردن هستند. اگر کاربر بر روی Skip کلیک کند، هزینه ای شامل شما نمی شود
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-two" role="tabpanel" tabindex="0">
+                                <div class="content">
+                                    <img src="assets/img/non-skippable.gif" alt="" class="image">
+                                    <div class="desc">
+                                        تبلیغاتی 15 ثانیه ای که کاربر مجبور به تماشای آنها تا انتها است
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-three" role="tabpanel" tabindex="0">
+                                <div class="content">
+                                    <img src="assets/img/infeed.jpg" alt="" class="image">
+                                    <div class="desc">
+                                        در صفحه ی اصلی یوتیوب و در سرچ، تبلیغ شما دیده می شود و تنها به ازای کلیک هزینه پرداخت می کنید
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-four" role="tabpanel" tabindex="0">
+                                <div class="content">
+                                    <img src="assets/img/pumber.gif" alt="" class="image">
+                                    <div class="desc">
+                                        تبلیغات کوتاه 6 ثانیه ای که قابل رد کردن نیستند
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -284,25 +322,6 @@
         </div>
     </section>
 
-    <section id="find" class="container-fluid find">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-xl-5 order-2 order-xl-1 img-column column">
-                    <div class="img">
-                        <img src="assets/img/content1.png" alt="budget">
-                    </div>
-                </div>
-
-                <div class="col-12 col-xl-7 order-1 order-xl-2 content-column column">
-                    <h2 class="title">به کمک جیمکس ادز مشتریان خود را پیدا کنید</h2>
-                    <p class="desc">
-                        به وسیله ی تبلیغ در گوگل و یوتیوب می توانید با بودجه ای مناسب، مشتریان اصلی و مرتبط خود را پیدا کنید. به وسیله ی ابزارهای هوشمند گوگل، این تبلیغات به مرور زمان بهتر شده و نتایجی بهتر برای کسب و کار شما به ارمغان می آورند
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="feachers" class="container feachers">
         <div class="row">
             <div class="col-12 col-xl-3 column">
@@ -367,7 +386,7 @@
                     </div>
                     <div class="title">هزینه مقرون به صرفه</div>
                     <div class="desc">
-                        شما تنها به ازای کلیک هزینه پرداخت می کنید و نمایش تبلیغ به تنهایی هزینه ای برای شما نخواهد داشت
+                        هزینه به ازای هر ری اکشن کمتر از 0.10 دلار است
                     </div>
                 </div>
                 <!-- Component Feacher Card End -->
@@ -383,7 +402,7 @@
                     </div>
                     <div class="title">رشد کسب و کار شما</div>
                     <div class="desc">
-                        کسب و کار خود را به کاربرانی که به دنبال خدمات یا محصولات شما هستند، تبلیغات خود را نمایش دهید و به سرعت افزایش فروش را مشاهده کنید
+                        در بازه کوتاه می توانید کسب و کار خود را به کاربران زیادی معرفی نمایید و تاثیرات آن را به سرعت ببینید
                     </div>
                 </div>
                 <!-- Component Feacher Card End -->
@@ -399,75 +418,60 @@
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                هزینه هر کلیک چقدر است؟
+                                هزینه ها به چه شکل محاسبه می شوند؟
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                هزینه ی هر کلیک به سه فاکتور بستگی دارد.
-                                گوگل مزایده بوده، بنابراین هر چقدر رقابت بیشتری داشته باشید، برای نمایش در لینک های اول هزینه ی بیشتری لازم است
-                                میزان سرچ کلمات شما در هزینه ی هر کلیک تاثیر گذار است، هر چقدر کلمات شما کم سرچ تر باشد، هزینه ی کلیک تان افزایش پیدا می کند
-                                امتیاز کیفی سایت شما، به این معنی که هر چقدر گوگل امتیاز کیفی بیشتری به سایت شما بدهد، هزینه کلیکتان بهتر خواهد شد
+                                هزینه ی تبلیغات در یوتیوب، یا به ازای هر 1000 عدد نمایش است، یا به ازای کلیک و مشاهده ی حداقل 30 ثانیه از تبلیغات
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                آیا دسترسی مستقیم به پنل گوگل ادز را خواهیم داشت؟
+                                با خرید هر پلن چه تعداد به سابسکرایبر ها اضافه می شود؟
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                بله شما می توانید تمامی گزارش ها را از پنل گوگل ادز دریافت و بررسی نمایید
+                                این عدد کاملا بسته به ظاهر چنل شما، تعداد ویدئوها، تعداد سابسکرایبر های فعلی و موضوع محتوای شما دارد. اما اگر در نظر بگیریم که چنل شما از لحاظ محتوا کیفیت بالایی دارد، با خرید 500 درهم، بین 500 تا 2000 سابسکرایبر قابل جذب است.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                چقدر زمان می برد تا تبلیغ من در لینک اول نمایش یابد؟
+                                آیا باید حتما برای تبلیغات در یوتیوب، کانال داشته باشیم؟
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                بعد از 24 تا 48 ساعت آنالیز گوگل، در صورتی که هزینه ی کلیک شما از رقبایتان بالاتر باشد، در لینک اول گوگل نمایش خواهید یافت.
+                                بله. ویدئوی تبلیغی شما باید در کانال یوتیوب آپلود شده باشد. این ویدئو می تواند بصورت شخصی آپلود شود و برای دیگران قابل رویت نباشد.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="900" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                آیا پروموشن کد گوگل به ما تعلق خواهد گرفت؟
+                                با توجه به فیلتر بودن یوتیوب، به چه شکل می توان کاربران ایرانی را انتخاب کرد؟
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                بله. پروموشن کد گوگل بسته به میزان مصرف اکانت شما متفاوت است اما به هر میزان که گوگل به شما پروموشن کد بدهد، به صورت رایگان بر روی اکانت شما فعال خواهد شد
+                                با انتخاب دقیق کانال ها و ویدئوهای مرتبط با حوزه فعالیت شما که به زبان فارسی هستند، برای نمایش تبلیغ، این مساله ممکن می شود.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200" data-aos-easing="ease-in-sine">
                         <h2 class="accordion-header" id="headingFive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                گوگل ادز چه مقدار به فروش بیشتر من کمک خواهد کرد؟
+                                آیا از تبلیغات یوتیوب برای معرفی وب سایت هم می توان استفاده کرد؟
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                میزان افزایش فروش شما به شرایط مختلفی از جمله کیفیت خدمات و قیمت های شما بستگی دارد. ما می توانیم به شما مشاوره داده و شما را در این مسیر راهنمایی کنیم.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1500" data-aos-easing="ease-in-sine">
-                        <h2 class="accordion-header" id="headingSix">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                چرا زمانی که رقبای من تبلیغی در گوگل ندارند، باز هم هزینه ی کلیک من حداقل نیست؟
-                            </button>
-                        </h2>
-                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                رقبای شما صرفا افرادی که از سرویس گوگل ادز استفاده می کنند نیستند. بلکه سایت هایی که سئو قوی ای دارند نیز، مثل ویکی پدیا و دیجیکالا، رقیب شما محسوب شده و برای نمایش بالاتر از آنها لازم است هزینه ی کلیک خود را افزایش دهید.
+                                بله قابل استفاده است. شما می توانید ویدئو تبلیغ خود را به وب سایت لینک نموده و از این تبلیغ ورودی به وب سایت خود داشته باشید.
                             </div>
                         </div>
                     </div>
