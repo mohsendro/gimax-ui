@@ -2243,6 +2243,28 @@ a:hover {
 
 .blog-archive .column {}
 
+.blog-archive .seo-desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--description-color);
+    text-align: justify;
+    background-color: rgba(196,196,196,.2);
+    border: 1px solid rgba(196,196,196,.2);
+    border-radius: 7px;
+    padding: 35px 20px;
+    margin-top: 50px;
+}
+
 
 /************* Blog Single *************/
-
+.main.single {
+    margin-top: 50px;
+}

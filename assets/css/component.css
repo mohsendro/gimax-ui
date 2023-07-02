@@ -841,7 +841,7 @@
 
 
 /************* Component Pagination *************/
-.navigation {
+.navigations {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -851,22 +851,22 @@
     margin-top: 50px;
 }
 
-.navigation .pagination {
+.navigations .pagination {
     padding: 0;
     margin: 0;
 }
 
-.navigation .page-item {}
+.navigations .page-item {}
 
-.navigation .page-link {
+.navigations .page-link {
     font-size: 14px;
     font-weight: 400;
     color: var(--description-color);
 }
 
-.navigation .page-item.active {}
+.navigations .page-item.active {}
 
-.navigation .page-item.active .page-link {
+.navigations .page-item.active .page-link {
     color: var(--main-color);
     background-color: var(--main-color-default);
     border-color: var(--main-color-default);
