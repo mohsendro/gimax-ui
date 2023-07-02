@@ -218,6 +218,21 @@
         margin-top: 70px;
     }
 
+    /************* Monetization Page *************/
+    .monetization-info {
+        margin-top: 70px;
+    }
+
+    /************* Studio Page *************/
+    .studio-info {
+        margin-top: 70px;
+    }
+
+    /************* Fraudclicks Page *************/
+    .fraudclicks-info {
+        margin-top: 70px;
+    }
+
 }
 
 @media (max-width: 991.98px) {}

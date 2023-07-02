@@ -840,6 +840,39 @@
 }
 
 
+/************* Component Pagination *************/
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.navigation .pagination {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation .page-item {}
+
+.navigation .page-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--description-color);
+}
+
+.navigation .page-item.active {}
+
+.navigation .page-item.active .page-link {
+    color: var(--main-color);
+    background-color: var(--main-color-default);
+    border-color: var(--main-color-default);
+}
+
+
 /************* Component Responsive *************/
 @media (max-width: 1399.98px) {}
 

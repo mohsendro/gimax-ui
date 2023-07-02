@@ -53,6 +53,7 @@
 
 .stellarnav {
     display: flex;
+    z-index: 1045;
 }
 
 .stellarnav li a {
@@ -201,6 +202,66 @@
 }
 
 .header .btn-login:hover {
+    background-color: var(--hover-color-default);
+}
+
+#searchOffcanvasTop {
+    height: 150px;
+}
+
+#searchOffcanvasTop .offcanvas-header {
+    justify-content: flex-end;
+}
+
+#searchOffcanvasTop .offcanvas-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#searchOffcanvasTop .offcanvas-body form {
+    width: auto;
+    min-width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+#searchOffcanvasTop .offcanvas-body input {
+    height: 45px;
+}
+
+#searchOffcanvasTop .offcanvas-body button {}
+
+#searchOffcanvasTop .offcanvas-body button {
+    width: auto;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    color: var(--title-color);
+    background-color: var(--main-color-default);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#searchOffcanvasTop .offcanvas-body button i {
+    font-size: 25px;
+}
+
+#searchOffcanvasTop .offcanvas-body button:hover {
     background-color: var(--hover-color-default);
 }
 
@@ -564,6 +625,10 @@
 
     .header .logo-column {
         justify-content: center;
+    }
+
+    #searchOffcanvasTop {
+        display: none;
     }
 
     /************* Footer *************/

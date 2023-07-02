@@ -1358,6 +1358,15 @@ a:hover {
     margin-right: 10px;
 }
 
+.pricing .plan .price .postfix {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--description-color);
+}
+
 .pricing .plan ul.features {
     width: 100%;
     display: flex;
@@ -1386,7 +1395,12 @@ a:hover {
     color: #ff0000;
 }
 
+.pricing .plan ul.features li .la-exclamation {
+    color: #fed813;
+}
+
 .pricing .plan ul.features li .check {
+    line-height: 20px;
     color: var(--title-color);
     text-decoration: auto;
 }
@@ -1953,16 +1967,282 @@ a:hover {
 }
 
 
+/************* Monetization Page *************/
+.monetization-info {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    background-image: url(../img/back-right.svg);
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.monetization-info .row {}
+
+.monetization-info .column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    gap: 15px;
+}
+
+.monetization-info .content-column {
+    padding: 20px;
+}
+
+.monetization-info .img-column {}
+
+.monetization-info .title {
+    width: 90%;
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: var(--default-font);
+    text-align: right;
+    color: var(--title-color);
+    /* margin-bottom: 50px; */
+    margin: 0;
+}
+
+.monetization-info .desc {
+    width: 90%;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    margin: 0;
+}
+
+.monetization-info .img {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.monetization-info .img img {
+    width: 100%;
+    /* max-width: 500px; */
+    height: auto;
+    mix-blend-mode: multiply;
+    border-radius: 5px;
+}
+
+
+/************* Studio Page *************/
+.studio-info {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    background-image: url(../img/back-right.svg);
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.studio-info .row {}
+
+.studio-info .column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    gap: 15px;
+}
+
+.studio-info .content-column {
+    padding: 20px;
+}
+
+.studio-info .img-column {}
+
+.studio-info .title {
+    width: 90%;
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: var(--default-font);
+    text-align: right;
+    color: var(--title-color);
+    /* margin-bottom: 50px; */
+    margin: 0;
+}
+
+.studio-info .desc {
+    width: 90%;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    margin: 0;
+}
+
+.studio-info .img {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.studio-info .img img {
+    width: 100%;
+    /* max-width: 500px; */
+    height: auto;
+    mix-blend-mode: multiply;
+    border-radius: 5px;
+}
+
+
+/************* Fraudclicks Page *************/
+.fraudclicks-info {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    background-image: url(../img/back-right.svg);
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.fraudclicks-info .row {}
+
+.fraudclicks-info .column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    gap: 15px;
+}
+
+.fraudclicks-info .content-column {
+    padding: 20px;
+}
+
+.fraudclicks-info .img-column {}
+
+.fraudclicks-info .title {
+    width: 90%;
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: var(--default-font);
+    text-align: right;
+    color: var(--title-color);
+    /* margin-bottom: 50px; */
+    margin: 0;
+}
+
+.fraudclicks-info .desc {
+    width: 90%;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    margin: 0;
+}
+
+.fraudclicks-info .img {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.fraudclicks-info .img img {
+    width: 100%;
+    /* max-width: 500px; */
+    height: auto;
+    mix-blend-mode: multiply;
+    border-radius: 5px;
+}
+
+
+/************* Page *************/
+.page {}
+
+.page .row {}
+
+.page .column {}
+
+
+/************* 404 *************/
+.error {}
+
+.error .row {}
+
+.error .column {}
+
+.error-content .oopss {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 25px
+}
+
+.error-content .oopss .img {
+    width: auto;
+    height: auto;
+}
+
+.error-content .oopss .error-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 25px
+}
+
+.error-content .oopss .title {
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--default-font);
+    text-align: center;
+    color: var(--title-color);
+    z-index: 2;
+}
+
+/************* Empty *************/
+.empty {}
+
+.empty .row {}
+
+.empty .column {}
+
+
 /************* Blog Archive *************/
+.main.blogs {
+    margin-top: 50px;
+}
+
+.blog-archive {}
+
+.blog-archive .row {}
+
+.blog-archive .column {}
 
 
 /************* Blog Single *************/
 
-
-/************* 404 *************/
-
-
-/************* Empty *************/
-
-
-/************* Page *************/

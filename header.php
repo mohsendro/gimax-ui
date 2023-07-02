@@ -66,7 +66,7 @@
                             <li><a href="http://localhost/gmax-ui/seo.php">خدمات سئو</a></li>
                             <li><a href="http://localhost/gmax-ui/google.php">تبلیغ در گوگل</a></li>
                             <li><a href="http://localhost/gmax-ui/youtube.php">تبلیغ در یوتیوب</a></li>
-                            <li class="drop-left"><a href="#">سایر خدمات</a>
+                            <li class="drop-left"><a href="http://localhost/gmax-ui/services.php">سایر خدمات</a>
                                 <ul>
                                     <li><a href="http://localhost/gmax-ui/monetization.php">کسب درآمد از یوتیوب</a></li>
                                     <li><a href="http://localhost/gmax-ui/studio.php">استودیو یوتیوب جیمکس</a></li>
@@ -77,6 +77,13 @@
                                 <ul>
                                     <li><a href="http://localhost/gmax-ui/about.php">درباره ما</a></li>
                                     <li><a href="http://localhost/gmax-ui/contact.php">تماس با ما</a></li>
+                                </ul>
+                            </li>
+                            <li class="drop-left"><a href="#">سایر صفحات</a>
+                                <ul>
+                                    <li><a href="http://localhost/gmax-ui/404.php">صفحه 404</a></li>
+                                    <li><a href="http://localhost/gmax-ui/archive.php">آرشیو مقالات</a></li>
+                                    <li><a href="http://localhost/gmax-ui/single.php">سینگل مقاله</a></li>
                                 </ul>
                             </li>
                             <li class="drop-left"><a href="#">زیرمنو</a>
@@ -96,7 +103,8 @@
                 </div>
 
                 <div class="col-12 col-sm-6 col-xl-4 col-xl-4 link-column column order-3 order-xl-3">
-                    <button class="btn btn-search"><i class="las la-search"></i></button>
+                    <a href="http://localhost/gmax-ui/search" class="btn btn-search d-block d-xl-none"><i class="las la-search"></i></a>
+                    <button class="btn btn-search d-none d-xl-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#searchOffcanvasTop" aria-controls="offcanvasTop"><i class="las la-search"></i></button>
                     <a href="tel:02191095659" class="btn btn-call"><span class="d-none d-xl-block">021-<strong>91095659</strong></span><i class="las la-phone"></i></a>
                     <button type="button" class="btn btn-login"><span class="d-none d-xl-block">ورود | ثبت نام</span><i class="las la-user"></i></button>
                 </div>
@@ -104,3 +112,17 @@
         </div>
     </header>
     <!-- Header End -->
+
+    <!-- Search Offcanvas Start -->
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="searchOffcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <form action="/" method="get">
+                <input type="text" name="s" class="form-control">
+                <button type="submit" class="btn"><span class="d-none d-xl-block">جستجو</span><i class="las la-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <!-- Search Offcanvas End -->
