@@ -195,6 +195,29 @@
         width: 100%;
     }
 
+    /************* About Page *************/
+    .about-box {
+        margin-top: 70px;
+    }
+
+    .about-box .row:not(.heading-row) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: scroll;
+    }
+
+    .about-box .column:not(.heading-row .column) {
+        width: auto;
+        max-width: 400px;
+    }
+
+    /************* Services Page *************/
+    .main.services {
+        margin-top: 70px;
+    }
+
 }
 
 @media (max-width: 991.98px) {}

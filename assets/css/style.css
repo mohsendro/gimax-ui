@@ -1753,13 +1753,204 @@ a:hover {
 }
 
 
+/************* About Page *************/
+.main.about {
+    margin-top: 70px;
+}
+
+.about-description {
+    min-height: 500px;
+    display: flex;
+}
+
+.about-description .row {}
+
+.about-description .column {}
+
+.about-description .content-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+}
+
+.about-description .img-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about-description img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-description .title {
+    width: 100%;
+    display: block;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 45px;
+    margin: 0;
+}
+
+.about-description .title strong {
+    color: var(--main-color-default);
+}
+
+.about-description .desc {
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    color: var(--description-color);
+    text-align: justify;
+    margin: 0;
+}
+
+.about-description .details {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 35px;
+    color: var(--description-color);
+    text-align: justify;
+    margin: 0;
+}
+
+.about-description .details li {
+    position: relative;
+}
+
+.about-description .details li:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translate(0px, -5px);
+    background-color: var(--main-color-default);
+    border-radius: 50%;
+}
+
+.about-box {
+    margin-top: 100px;
+}
+
+.about-box .row {}
+
+.about-box .column {}
+
+.about-box .head {
+    width: 100%;
+    display: block;
+    position: relative;
+    font-family: var(--second-font);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 
+/************* Service Page *************/
+.main.services {
+    margin-top: 100px;
+}
 
+.about-box .row {}
 
+.about-box .column {}
 
+.our-services .content-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+}
 
+.our-services .img-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+}
 
+.our-services img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.our-services .title {
+    width: 100%;
+    display: block;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 45px;
+    margin: 0;
+}
+
+.our-services .title strong {
+    color: var(--main-color-default);
+}
+
+.our-services .desc {
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    color: var(--description-color);
+    text-align: justify;
+    margin: 0;
+}
+
+.our-services .details {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 35px;
+    color: var(--description-color);
+    text-align: justify;
+    margin: 0;
+}
+
+.our-services .details li {
+    position: relative;
+}
+
+.our-services .details li:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translate(0px, -5px);
+    background-color: var(--main-color-default);
+    border-radius: 50%;
+}
 
 
 /************* Blog Archive *************/

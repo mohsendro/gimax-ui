@@ -120,6 +120,7 @@
 
 .stellarnav.mobile li a {
     text-align: right;
+    padding: 15px;
 }
 
 .stellarnav .dd-toggle {
@@ -129,6 +130,10 @@
 
 .stellarnav.mobile .menu-toggle {
     padding: 0;
+}
+
+.stellarnav.mobile>ul>li>a.dd-toggle {
+    padding: 15px;
 }
 
 .header .btn-search {

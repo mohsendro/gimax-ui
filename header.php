@@ -54,7 +54,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-sm-1 col-xl-1 col-xl-1 logo-column column order-2 order-xl-1">
-                    <a href="#" class="logo">
+                    <a href="http://localhost/gmax-ui/" class="logo">
                         <img src="assets/img/global/logo.png" alt="logo" width="auto" height="auto">
                     </a>
                 </div>
@@ -62,18 +62,31 @@
                 <div class="col-6 col-sm-5 col-xl-7 col-xl-7 menu-column column order-1 order-xl-2">
                     <div class="stellarnav">
                         <ul>
-                            <li><a href="#">تبلیغ در یوتیوب</a></li>
-                            <li><a href="#">طراحی سایت</a></li>
-                            <li><a href="#">تبلیغ در گوگل</a></li>
+                            <li><a href="http://localhost/gmax-ui/webdesign.php">طراحی سایت</a></li>
+                            <li><a href="http://localhost/gmax-ui/seo.php">خدمات سئو</a></li>
+                            <li><a href="http://localhost/gmax-ui/google.php">تبلیغ در گوگل</a></li>
+                            <li><a href="http://localhost/gmax-ui/youtube.php">تبلیغ در یوتیوب</a></li>
+                            <li class="drop-left"><a href="#">سایر خدمات</a>
+                                <ul>
+                                    <li><a href="http://localhost/gmax-ui/monetization.php">کسب درآمد از یوتیوب</a></li>
+                                    <li><a href="http://localhost/gmax-ui/studio.php">استودیو یوتیوب جیمکس</a></li>
+                                    <li><a href="http://localhost/gmax-ui/fraudclicks.php">جلوگیری از کلیک های فیک در گوگل</a></li>
+                                </ul>
+                            </li>
+                            <li class="drop-left"><a href="#">سازمان</a>
+                                <ul>
+                                    <li><a href="http://localhost/gmax-ui/about.php">درباره ما</a></li>
+                                    <li><a href="http://localhost/gmax-ui/contact.php">تماس با ما</a></li>
+                                </ul>
+                            </li>
                             <li class="drop-left"><a href="#">زیرمنو</a>
                                 <ul>
                                     <li><a href="#">سطح1</a>
                                         <ul>
-                                            <li><a href="#">سطح2</a>
-                                                <li><a href="#">منو</a></li>
-                                                <li><a href="#">منو</a></li>
-                                                <li><a href="#">منو</a></li>
-                                            </li>
+                                            <li><a href="#">سطح2</a></li>
+                                            <li><a href="#">سطح2</a></li>
+                                            <li><a href="#">سطح2</a></li>
+                                            <li><a href="#">سطح2</a></li>
                                         </ul>
                                     </li>
                                 </ul>

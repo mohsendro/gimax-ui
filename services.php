@@ -1,34 +1,27 @@
 <?php include __DIR__ . '/header.php'; ?>
 
-<main id="main" class="main about">
-    <section id="about-description" class="container-fluid about-description">
+<main id="main" class="main services">
+    <section id="our-services" class="container-fluid our-services">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-6 content-column column">
-                    <h1 class="title">ما یک شرکت تبلیغات در <strong>گوگل</strong> و <strong>یوتیوب</strong> هستیم</h1>
+                    <h1 class="title"><strong>ما</strong> که هستیم و چه کار میکنیم</h1>
                     <p class="desc">
-                        ما حرفه ای ترین های هر حوزه را در <a href="https://gmaxads.com/">جیمکس ادز</a> جمع کردیم تا به رشد شما و کسب و کار شما کمک کنیم
-                        با اطمینان خاطر تبلیغات گوگل خود را به ما بسپارید و بیشترین فروش را تجربه کنید. با مدیریت حرفه ای اکانت گوگل ادز با کمترین هزینه، همیشه بالاتر از رقبای خود دیده شوید و از کلیک رقبا و ربات ها برروی<a href="https://gmaxads.com/googleads/"> تبلیغ در گوگل</a> خود جلوگیری کنید
-                    </p>
-                    <p class="desc">
-                        با <a href="https://gmaxads.com/youtubeads/">تبلیغ در یوتیوب</a> و تبلیغ در سایت های خارجی، برند خود را جهانی کنید و از رقبای داخلی خود جلوتر باشید
-                        با تبلیغات در گوگل پلی و اپ استور در کمترین زمان و با کمترین هزینه نصب اپلیکیشن خود را افزایش دهید
-                        فقط روی محتوای خود تمرکز کنید و نقد کردن درآمد یوتیوب، سئو کانال و حتی ادیت ویدئو هاتون را به ما بسپارید.
-                        به جای خرید تجهیزات گران قیمت، با استودیو جیمکس با بالاترین کیفیت تولید محتوا کنید.
+                        شرکت جیمکس ادز متشکل از افراد متخصص گوگل برای حداکثر کردن بازدهی سرویس های تبلیغاتی این شرکت و با سرمایه گذاری شرکت های شناخته شده ی ماموت و مکس آغاز به فعالیت کرده است. ورود شرکت های با سابقه و شناخته شده ی فوق الذکر نشان از اهمیت این سرویس برای کسب و کارهای بزرگ دارد. ما مفتخر به آنیم که خدمات خود را به دیگر شرکت ها هم عرضه کنیم و سهمی در موفقیت شما داشته باشیم.
                     </p>
                 </div>
 
                 <div class="col-12 col-xl-6 img-column column">
-                    <img src="assets/img/about.gif" alt="web-design">
+                    <img src="assets/img/services.gif" alt="web-design">
                 </div>
             </div>
         </div>
     </section>
 
     <section id="about-box" class="container about-box">
-        <div class="row heading-row">
+        <div class="row">
             <div class="col-12 column">
-                <div class="head">اهداف ما</div>
+                <div class="head">هرآنچه شما نیاز دارید</div>
             </div>
         </div>
 
@@ -39,9 +32,9 @@
                     <div class="img">
                         <img src="assets/img/box1.jpg" alt="">
                     </div>
-                    <div class="title">گزارش های دقیق</div>
+                    <div class="title">مارکتینگ</div>
                     <div class="desc">
-                        در کنار دسترسی مستقیم به اکانت گوگل ادز، گزارش تبلیغات شما همراه با آنالیز و پیشنهادات بهینه سازی بصورت هفتگی برای شما ارسال می شود
+                        مشاوره مارکتینگ جهت موفقیت کسب و کار شما توسط معتبرترین شرکت در زمینه مارکتینگ در کشور
                     </div>
                 </div>
                 <!-- Component Boxing Card End -->
@@ -52,9 +45,9 @@
                     <div class="img">
                         <img src="assets/img/box1.jpg" alt="">
                     </div>
-                    <div class="title">هزینه های مقرون به صرفه</div>
+                    <div class="title">تبلیغ در گوگل</div>
                     <div class="desc">
-                        با مدیریت تخصصی تبلیغات، هزنیه های خود را کاهش دهید و با سرویس جلوگیری از از کلیک رقبا و ربات ها، از هدر رفتن هزینه هاتون جلوگیری کنید
+                        دسترسی پذیری به مشتری تنها یک راه ۱۰۰٪ مطمئن دارد. ما این سرویس را برای شما فراهم می کنیم
                     </div>
                 </div>
                 <!-- Component Boxing Card End -->
@@ -65,9 +58,9 @@
                     <div class="img">
                         <img src="assets/img/box1.jpg" alt="">
                     </div>
-                    <div class="title">مشاوره تخصصی مارکتینگ و فنی سایت</div>
+                    <div class="title">تبلیغ در یوتیوب</div>
                     <div class="desc">
-                        با مشاوره ی فنی، تمامی مشکلات سایت سئو خود را برطرف کنید و در تمامی حوزه های دیجیتال مارکتینگ جلوی چشم مشتریان خود بدرخشید
+                        در یوتیوب دیده شوید! امکان نمایش تبلیغ شما در یوتیوب و در کانال های دلخواه شما
                     </div>
                 </div>
                 <!-- Component Boxing Card End -->
@@ -78,9 +71,9 @@
                     <div class="img">
                         <img src="assets/img/box1.jpg" alt="">
                     </div>
-                    <div class="title">آنالیز دیتا و رصد رقبا</div>
+                    <div class="title">کسب درآمد از یوتیوب</div>
                     <div class="desc">
-                        جدید ترین ترند ها و دغدغه ی مشتریان خود را بیابید و از تمامی رقبای خود جلوتر باشید
+                        از خدمات اصلی مجموعه جیمکس ادز، نقد کردن درآمد از یوتیوب برای تولید کنندگان محتوای ویدئویی است
                     </div>
                 </div>
                 <!-- Component Boxing Card End -->

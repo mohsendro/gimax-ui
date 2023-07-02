@@ -593,6 +593,64 @@
 }
 
 
+/************* Component Boxing Card *************/
+.boxing {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(196,196,196,.2);
+    border: 1px solid rgba(196,196,196,.2);
+    border-radius: 7px;
+    padding: 35px 20px;
+}
+
+.boxing .img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.boxing .img img {
+    width: auto;
+    max-width: 200px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.boxing .title {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.boxing .head {
+    width: 100%;
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.boxing .desc {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--description-color);
+    text-align: center;
+}
+
+
 /************* Component Feacher Card *************/
 .feacher {
     width: 100%;
